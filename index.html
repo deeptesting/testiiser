@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="iiserApp">
 
 <div class="jumbotron text-center">
   <h1>My First Bootstrap Page</h1>
@@ -35,7 +35,18 @@
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
   </div>
+
+  <div ng-include="'footer.html'"></div>
 </div>
+
+<script>
+     var app = angular.module("iiserApp",[]);
+
+    //  app.controller("myCTRL"["$scope",function($scope){
+
+    // }]);
+</script>
+
 
 </body>
 </html>
