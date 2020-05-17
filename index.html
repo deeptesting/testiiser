@@ -1,56 +1,749 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>IISER</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="content/img/favicon.png" rel="icon">
+  <link href="content/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="content/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link href="content/vendor/lity/lity.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  
+  <!-- <link href="content/vendor/aos/aos.css" rel="stylesheet">  -->
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.js"></script> -->
+  <!-- <script src="content/js/jquery.marquee.js"></script>
+  <script src="content/js/jquery.pause.js"></script> -->
+  <script src="content/vendor/lity/lity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet" />
+  <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
+
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="content/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="content/vendor/owl.carousel/content/owl.carousel.min.css" rel="stylesheet">
+  <link href="content/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="content/vendor/remixicon/remixicon.css" rel="stylesheet">-->
+  
+
+  <!-- Template Main CSS File -->
+  <link href="content/css/style.css" rel="stylesheet">
+
+ 
   <base href="/testiiser/">
 
-</head>
-<body ng-app="iiserApp">
-
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
   
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3><a href="test.html">Column 1</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</head>
+
+<body  ng-app="iiserApp" ng-controller="baseCtrl">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"> <img src="content/images/logo.png">    </a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="content/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <div class="container heading_container" >
+
+          <div class="row justify-content-center heading_block" >
+            <span>CENTER OF EXCELLENCE IN SPACE SCIENCES INDIA</span>
+            <!-- <img src="content/images/header_1.jpg">  -->
+          </div>
+        </div>
+
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+
+
+          <li class="drop-down"><a href="">Research</a>
+            <ul>
+              <li><a href="#research">Research</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><a href="#programs">Programs</a></li>
+            </ul>
+          </li>
+
+          <li class="drop-down"><a href="">People &amp; Gallery</a>
+            <ul>
+              <li><a href="#people">People</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </li>
+          <li class="drop-down"><a href="">Contact</a>
+            <ul>
+              <li><a href="#outreach">Outreach</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </li>
+          
+          <!-- <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li> -->
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  </header><!-- End Header -->
+
+  <section id="headingtext" class="d-flex align-items-center justify-content-center">
+    <div class="container heading_container" >
+      <div class="row justify-content-center heading_block" >
+        <span>&nbsp;</span>
+        <!-- <img src="content/images/header_1.jpg">  -->
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </section>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container1 heading_container" >
+
+     
+    
+
+        <div id="magicCarousel" class="carousel slide my-2" data-ride="carousel">
+      
+          <!--    Carousel Indicators    -->
+                <ol class="carousel-indicators">
+                  <li data-target="#magicCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#magicCarousel" data-slide-to="1"></li>
+                  <li data-target="#magicCarousel" data-slide-to="2"></li>
+                  <li data-target="#magicCarousel" data-slide-to="3"></li>
+                </ol>
+                
+          <!--    Carousel Slider    -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img src="content/images/banner/banner1.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                      <p>CESSI-The Science of Space Weather-Judith T.Karpen (NASA Space Weather Lab)</p>
+                      
+                    </div> 
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="content/images/banner/banner2.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                      <p>CESSI-The Science of Space Weather-Judith T.Karpen (NASA Space Weather Lab)</p>
+                      
+                    </div> 
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="content/images/banner/banner3.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                      <p>CESSI-The Science of Space Weather </p>
+                      
+                    </div> 
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="content/images/banner/banner4.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                      <p>CESSI-Workshop on Space Astronomy and Telescope Making</p>
+                    </div> 
+                  </div>
+                  
+                 <!-- Carousel Controls     -->
+                  <a href="#magicCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a href="#magicCarousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                  
+                </div>
+              </div>
+              
+ 
+<!-- 
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
+          <h2>We are team of talanted digital marketers</h2>
+        </div>
+      </div>
+
+      <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="col-xl-2 col-md-4 col-6">
+          <div class="icon-box">
+            <i class="ri-store-line"></i>
+            <h3><a href="">Lorem Ipsum</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 ">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line"></i>
+            <h3><a href="">Dolor Sitema</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line"></i>
+            <h3><a href="">Sedare Perspiciatis</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line"></i>
+            <h3><a href="">Magni Dolores</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
+          <div class="icon-box">
+            <i class="ri-database-2-line"></i>
+            <h3><a href="">Nemos Enimade</a></h3>
+          </div>
+        </div>
+      </div> -->
+
     </div>
+  </section><!-- End Hero -->
+
+  
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+          <div class="row">
+            <h2 class="w3-lobster">About Us</h2>
+            <hr/>
+          </div>
+          <div class="row">
+            <p class=" ">
+              The Center of Excellence in Space Sciences India (CESSI) is a multi-institutional Center of Excellence hosted by the Indian Institute of Science Education and Research (IISER) Kolkata and has been established through funding from the Ministry of Human Resource Development. CESSI aims to explore the Sun’s activity, generate the understanding necessary for space weather forecasting, hunt for gravitational waves, support national space science initiatives, participate in international capacity building activities and pursue public-private partnerships in space science research. The Center will take advantage of high-performance computing facilities, cloud computing and the high-speed National Knowledge Network grid to achieve its goals.
+            </p>
+            <p class=" ">
+              CESSI faculty are drawn from IISER Kolkata, IISER Pune, Indian Institute of Astrophysics (Bangalore), Udaipur Solar Observatory-Physical Research Laboratory (Udaipur) and the Indian Space Research Organization (Bangalore), have wide-ranging interests in the astrophysical space sciences, and have the experience of handling international and national space science projects.
+            </p>
+            <p class=" ">
+              Since its inception CESSI has already contributed to major developments in astrophysics and space sciences. Notably, CESSI personnel are associated with the recently approved Aditya-L1 mission - India's first space mission to study the Sun. CESSI personnel contributed to the first direct detection of astrophysical gravitational waves from a binary Black Hole merger system and are involved with the LIGO-India mega project which aims to deploy a third gravitational wave detector in India to supplement the observations from the two detectors in the United States of America. CESSI affiliated personnel have also been involved with the planning and installation of India's most advanced ground-based solar telescope - the Multi-application solar telescope at Udaipur Solar Observatory (Physical Research Laboratory) which has been operating since 2015. CESSI faculty are also playing important roles in national and international capacity building through their roles in working groups and committees at the International Astronomical Union (IAU), Committee on Space Research (COSPAR), Scientific Committee on Solar-Terrestrial Physics (SCOSTEP), Astronomical Society of India (ASI) and the Indian Space Research Organization (ISRO).
+            </p>
+          </div>
+       
+      </div>
+    </section><!-- End About Section -->
+
+
+     <!-- ======= Announcements Section ======= -->
+     <section id="announcements" class="announcements" >
+      <div class="container" data-aos="fade-up">
+
+          <div class="row">
+            <h2 class="w3-lobster">Announcements</h2>
+            <hr/>
+          </div>
+          <div class="row">
+
+            <div class="card-deck">
+
+              <!-- =========Events Card =========-->
+              <div class="card">
+                <div class="card-header bg-transparent">Events</div>
+                <div class="card-body">
+                  
+                  <div class="card-text" ng-if="EventsInfo!=null" >
+
+                    <marquee  height="200" behavior="scroll" direction="up" scrollamount="3" scrolldelay="60" onmouseover="this.stop()" onmouseout="this.start()" >
+                          <div ng-repeat="event in EventsInfo">
+                            <span class="font-weight-bold"> {{event.Date}} </span>
+                            <br/><span class="font-weight-bold">{{event.CESSI_heading}}:</span> {{event.CESSI_text}}
+                            <br/><span class="font-weight-bold">Speaker:</span> {{event.Speaker}}
+                            <br/><span class="font-weight-bold">Venue:</span>{{event.Venue}} 
+                            <br/><span class="font-weight-bold">Time:</span> {{event.Time}} 
+                            <hr/>
+                          </div>
+                    </marquee>
+                  </div>
+                   
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="#">Read more</a> </small>
+                </div>
+              </div>
+
+              <!-- =========News Card =========-->
+              <div class="card">
+                <div class="card-header bg-transparent">News</div>
+                <div class="card-body">
+                 
+                    
+                  <div class="card-text" ng-if="NewsInfo!=null" >
+                    <marquee  height="200" behavior="scroll" direction="up" scrollamount="3" scrolldelay="60" onmouseover="this.stop()" onmouseout="this.start()" >
+                          <div ng-repeat="news in NewsInfo">
+                             <p><a href="{{news.News_Link}}"> {{news.News_text}}</a> </p> 
+                            <hr/>
+                          </div>
+                    </marquee>
+                  </div>
+
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="#">Read more</a> </small>
+                </div>
+              </div>
+
+              <!-- =========Announcements Card =========-->
+              <div class="card">
+                <div class="card-header bg-transparent ">Announcements</div>
+                <div class="card-body">
+
+                  <div class="card-text" ng-if="AnnouncementsInfo!=null" >
+                    <marquee  height="200" behavior="scroll" direction="up" scrollamount="3" scrolldelay="60" onmouseover="this.stop()" onmouseout="this.start()" >
+                          <div ng-repeat="announce in AnnouncementsInfo">
+                             <p><a href="{{announce.Link}}"> {{announce.Text}}</a> </p> 
+                            <hr/>
+                          </div>
+                    </marquee>
+                  </div>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="#">Read more</a> </small>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+       
+      </div>
+    </section><!-- End Announcements Section -->
+
+
+
+
+
+<!-- ======= Research Section ======= -->
+<section id="research" class="research">
+  <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <h2 class="w3-lobster">Research</h2>
+        <hr/>
+      </div>
+
+    <!--  ----Research 1 Start----- -->
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <img src="content/images/research/meridional.jpeg" class="img-rounded img-thumbnail" alt="Computational Modelling">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <h3>Computational Modelling</h3>
+          <p>The periodic variation of the Sun's large-scale magnetic field is a well-observed phenomenon. The complex interplay between the plasma flows and magnetic fields in the solar interior results in this periodic modulation of the global magnetic field activity of the Sun. The magnetohydrodynamic dynamo theory is able to provide better insight into the fundamental physical processes causing this variational nature of the solar activity.</p>
+          <p>Dibyendu Nandi from IISER Kolkata along with his PhD students has been involved in developing numerical models to study the effects of plasma flows on the evolution of magnetic field deep within the solar convection zone and on the solar surface. The adjacent figure (obtained from the developed dynamo model) depicts the plasma flow profile inside the solar convection zone.</p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    <!--  ----Research 1 End----- -->
+
+
+
+     <!--  ----Research 2 Start----- -->
+     <div class="row mb-5">
+      <div class="col-md-6">
+        <h3>Gravitational Waves</h3>
+        <p>Gravitational waves are one of the several predictions of Einstein’s General Theory of Relativity. Just as Maxwell’s theory of electromagnetism leads to the conclusion that light is a wave, Einstein’s theory tells us that spacetime itself can show the same behavior. These ‘ripples’ in spacetime can give us new insights in understanding phenomena in the universe where gravity is extremely strong, like the collapse of massive stars, rapidly spinning black holes, and mergers of binary black holes and pulsars. With the detection of gravitational waves by LIGO, we have in our hands a new way of exploring the mysteries of the universe.</p>
+        <p>At CESSI, Rajesh Kumble Nayak works mainly on gravitational wave data analysis, where he uses statistical techniques to extract and analyze the signals detected by instruments like LIGO.</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        <img src="content/images/research/gravitational.png" class="img-rounded img-thumbnail" alt="Computational Modelling">
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  <!--  ----Research 2 End----- -->
+
+
+ <!--  ----Research 3 Start----- -->
+ <div class="row mb-5">
+  <div class="col-md-4">
+    <img src="content/images/research/himo.jpg" class="mt-5 img-rounded img-thumbnail" alt="Computational Modelling">
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-6">
+    <h3>Helioseismology</h3>
+    <p>Helioseismology is a tool to probe the solar interior using solar oscillations. These oscillations are due to seismic waves, generated by the turbulent convection of the solar interior. Information about the solar interior helps us to refine the existing theories of stellar structure and evolution developed using the global properties like radius, luminosity, mass, composition and age. It helps in studying the flows in the solar interior and hence gives better insight on solar magnetism.</p>
+    <p>In CESSI, our focus is on helioseismology of magnetic fields and large­scale flows in the solar interior. We mainly work on local helioseismology, which uses local propagation of waves to measure the properties of a relatively small area of the solar interior. We use techniques like time- distance seismology and ring diagram analysis for our work.</p>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<!--  ----Research 3 End----- -->
+
+     <!--  ----Research 4 Start----- -->
+     <div class="row mb-5">
+      <div class="col-md-6">
+        <h3>Instrumentation</h3>
+        <p>CESSI, being committed towards the development of a scientific workforce in all areas of Space Sciences, puts significant effort into developing state-of-the-art instruments for both space and ground borne observatories. One of our current projects in instrumentation involves the development of a payload, the SUIT ( Solar UltraViolet Imaging Telescope ) on­board the Aditya-­L1 mission. Aditya­L1 is India's first venture towords studying the Sun with a satellite. Besides being an engineering marvel, it also boasts of being the first mission aimed at studying the chromosphere. Aditya has seven payloads in total – the primary being a coronograph (VELC), an imaging telescope (SUIT), accompanied by a magnetometer, two X-ray spectrometers (SoLEX and HEL1OS) and two particle detectors (ASPEX which includes the SWISS,STEPS­1 and PAPA). Aditya is scheduled for launch in 2019-­2020.</p>
+        <p>The SUIT payload is being developed under the leadership of Professor A N Ramaprakash (Instrument Principal Investigator and payload manager) and Professor Durgesh Tripathi (Principal Investigator) at IUCAA, Pune. Professor Dibyendu Nandi leads the science team of one of the science goals of the SUIT instrument. Current work on the instrument includes optical designing, component selection and performance modelling - on which CESSI personnel deployed at various national research centres are working. For more information on Aditya, visit - 
+         <a href="http://www.isro.gov.in/aditya-l1-first-indian-mission-to-study-sun" target="_blank"> http://www.isro.gov.in/aditya-l1-first-indian-mission-to-study-sun</a> .</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        <img src="content/images/research/aditya.jpg" class="mt-5 img-rounded img-thumbnail" alt="Computational Modelling">
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  <!--  ----Research 4 End----- -->
+
+ <!--  ----Research 5 Start----- -->
+ <div class="row mb-5">
+  <div class="col-md-4">
+    <img src="content/images/research/spaceweather.jpg" class="mt-5 img-rounded img-thumbnail" alt="Computational Modelling">
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-6">
+    <h3>Space Weather</h3>
+    <p>The conditions of the immediate space surrounding Earth ( thermosphere, ionosphere, magnetosphere and the interplanetary space between Earth and Sun ) is modulated by the magnetic activity of the Sun. A space weather event is typically associated with the Sun ejecting huge amounts of magnetized plasma and energetic particles into space. Such events despite creating beautiful auroras, pose a threat to telecommunications systems, satellites and power grids among other undesirable effects.</p>
+    <p>We at CESSI direct our efforts towards both predicting and analysing the impact of space weather events through numerical simulations and multi-spacecraft observations. We use numerical models to study the large scale magnetic field of the Solar corona, the dynamics of which is thought to be the main driver of space weather events. Observations from numerous satellites are extensively used to constrain our theoretical models and conduct studies on the dependence of CME properties on their sources on the solar surface, the effect of CMEs on the thermosphere and ionosphere with the goal of assessing the pathways through which space weather effects are mediated.</p>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<!--  ----Research 5 End----- -->
+
+   
+  </div>
+</section><!-- End research Section -->
+
+
+
+
+
+     <!-- ======= Publications Section ======= -->
+     <section id="publications" class="publications" >
+      <div class="container" data-aos="fade-up">
+
+          <div class="row">
+            <h2 class="w3-lobster">Publications</h2>
+            <hr/>
+          </div>
+          <div class="row justify-content-center">
+
+             <p>
+               <a class="btn rounded-pill publication_btn mt-5 mb-5 mr-5 ml-5 pt-5 pb-5 pr-5 pl-5 w-80" href="#publication_pdf" data-lity>
+                     <span>Click Here to show the publication</span>
+                </a>
+              </p>
+
+          </div>
+       
+      </div>
+
+      
+
+    </section><!-- End Publications Section -->
+
+
+
+
+
+<!-- ======= Programs Section ======= -->
+<section id="programs" class="programs">
+  <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <h2 class="w3-lobster">Programs</h2>
+        <hr/>
+      </div>
+      <!-- PHD -->
+      <div class="row justify-content-center mb-3 p-3" style="background-color: #291b1b; border-radius:2rem;">
+          <h3>PHD</h3>
+          <div>
+            <p>The goal of the doctoral program is to train future generations of space scientists who are equipped with the necessary skills to lead national and international endeavours in the astrophysical space sciences. Students interested in pursuing research in space science and allied fields of interest to CESSI can apply for PhD positions. The cornerstone of the program lies in the collaboration that students are expected to develop with faculties associated with CESSI drawn from various Indian academic organizations. Scientists from reputed institutes within India and abroad visit CESSI year round to deliver lectures and explore research collaborations. CESSI cultivates an open academic atmosphere wherein students are encouraged to take advantage of the ensuing interactions to forge scientific collaborations across institutional borders. This cross-institutional exchange of knowledge is expected to leverage the available expertise within the country more effectively towards the advance training of PhD students.
+            </p>
+            <h4>Degree</h4>
+            <p>Students are awarded a doctoral degree on successful completion of all degree requirements (including course-work) and the defense of their doctoral thesis. Nominally, the total PhD period is expected to be around 5 years. Students get a fellowship during the tenure of their PhD program which is determined based on Government norms.
+            </p>
+            <h4>Requirements</h4>
+            <p>Students with a competitive Masters degree (including MTech) from recognized academic organization are elligible to apply for the PhD program. The minimum eligibility criterion is available here. Note that students are expected to qualify at least one national level examination such as JEST, GATE, CSIR-UGC-NET. Students with INSPIRE fellowship are also encouraged to apply. Students may also apply based on any Government approved scheme for career advancement and mobility of Government personnel.
+            </p>
+            <p>Selections are made after short-listed candidates appear for an interview. Shortlisting of candidates for the interview is based on the documents and other information submitted. The list of documents required shall be declared on the admission portal. Note that mere eligibility does not guarantee being short-listed which is based on several competitive criterion including the statement of interest and letters of recommendation. The final selection is based on the performance in the interview. CESSI selects only the best amongst the applicants who demonstrate strong aptitude and motivation for research in astrophysics and space sciences. When no suitable candidates of sufficient quality are found, no offers are made.
+            </p>
+            <h4>Important Dates</h4>
+            <p>Advertisements for PhD are typically announced once a year on the CESSI web page, depending on the availability of vacancies. This is generally in between the months of February to April
+            </p>
+            <p>Courses shall begin in the last week of July.</p>
+          </div>
+      </div>
+   
+        <!-- MS -->
+      <div class="row justify-content-center mb-3 p-3" style="background-color: #102131;border-radius: 2rem;">
+        <h3>MS</h3>
+        <div>
+          <p> 
+            The program aims to attract highly motivated B.Tech and B.E. students with an engineering background who are desirous of contributing to fundamental research and mission-development in space sciences. The courses in this degree are aimed towards equipping students with the basic knowledge for tackling research problems in astrophysics. On completion of the degree the student would be well-placed to pursue a PhD program in any field of astrophysical space sciences.
+          </p>
+          <h4>Degree</h4>
+          <p>In this two year program the first year involves both coursework and the performance of a research project. The final year is dedicated entirely to the MS Thesis research which typically is a continuation of the first year research project. For their MS Thesis research students can collaborate with a faculty from Department of Physical Sciences at IISER Kolkata or any affiliated CESSI faculty from other organizations.
+          </p>
+          <p>
+            The students are required to complete their course credit requirements and successfully defend their thesis to obtain the MS degree.
+          </p>
+          <h4>
+            Courses
+          </h4>
+          <p>
+            Students are expected to complete all the core courses and choose from a list of elective courses. Core courses typically include Introductory Astrophysics, Computational Physics, Space Astronomy and Fluid- and Magneto-Hydrodynamics or Gravitation and Cosmology. Electives include other courses that are on offer from CESSI and Department of Physical Sciences. The subjects taken by a student is usually chosen in consultation with the concerned student's research supervisor.
+          </p>
+          <h4>Requirements</h4>
+          <p>Students with a competitive 4-year Bachelor's degree in engineering will be considered provided strong background in Physics or Engineering is demonstrated. To consult minimum eligibility criterion please click here.
+          </p>
+          <p>
+            Like our PhD program, selections are only made after shortlisted candidates appear for an interview. Shortlisting of candidates for the interview is based on the documents and other information submitted. The list of documents required shall be declared in the admission portal. Note that satisfying the minimum eligibility criterion is no guarantee for short-listing, which is based on various other factors including statement of interest and recommendation letters. The final selection is based on performance in the interview.
+          </p>
+          <h4>Duration</h4>
+          <p>The Masters program tenure is 2 years. Fellowship will be provided to all selected students.
+          </p>
+          <h4>Important Dates</h4>
+          <p>Advertisement for the MS program is typically announced once a year (during March-April) depending on the availability of funding and seats. You are advised to check the website regularly after March.
+
+          </p>
+          <p>Courses begin in the last week of July.</p>
+        </div>
+    </div>
+
+
+  </div>
+</section><!-- End Programs Section -->
+
+
+<!-- ======= People Section ======= -->
+<section id="people" class="people">
+  <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <h2 class="w3-lobster">People</h2>
+        <hr/>
+      </div>
+      <!-- People -->
+      <div class="mb-3 p-3" >
+         <img src="content/images/divider2.jpg" width="100%">
+         
+
+ 
+         <ng-container ng-if="PeopleAllKeysInfo!=null && PeopleInfo!=null">
+          
+          <div class="people_dept_section" ng-repeat="keyPeopleDept in PeopleAllKeysInfo">
+            <div class="people_dept_header">
+              <h4 class="w3-lobster">{{keyPeopleDept}}</h4>
+            </div>
+             
+
+
+              <div class="card-group slick marquee main-carousel-people" >
+
+                <div class="card h-100 w-100 mr-3 ml-3 carousel-cell slick-slide" ng-repeat="people in PeopleInfo[keyPeopleDept]">
+                  <div class="justify-content-center">
+                    <a href="{{people.External_Link!=''?people.External_Link:'javascript:void(0)'}}">
+                      <img class="card-img-top-custom img img-circle  rounded-circle" height="120px" width="120px"  src="{{people.Image}}" >                  
+                    </a>
+                    
+                  </div>
+                  <div class="card-body m-1 p-1" style="text-align: center;">
+                    <p class="card-title peaple_name">{{people.Name}}</p>
+                    <p class="card-text" ng-if="people.Degree_Position!=''">{{people.Degree_Position}}</p>
+                    <p class="card-text" ng-if="people.Year!=''">{{people.Year}}</p>
+                    <p class="card-text" ng-if="people.Status!=''">{{people.Status}}</p>
+                    <p class="card-text" ng-if="people.Institute!=''">{{people.Institute}}</p>
+                   
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-text email-text" ng-if="people.Email!=''"><i class="fa fa-envelope" aria-hidden="true"></i> {{people.Email}}</p>
+                  </div>
+                </div>
+                 
+              </div>
+
+          </div>
+        </ng-container>
+
+
+      </div>
+   
+        
+
+  </div>
+</section><!-- End People Section -->
+
+
+
+
+
+
+
+
+
+
+ 
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Test<span>.</span></h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+
+  <div id="publication_pdf" style="background:#fff;"   class="lity-hide">
+        
+    <iframe src="https://docs.google.com/gview?url=https://cessi.iiserkol.ac.in/Publications_of_Faculty_Associated_with_CESSI_10_04_19.pdf&embedded=true" 
+    style="display: block;border:none;height:100vh;width:80vw;"  
+    ></iframe>
+    <!-- <object type="application/pdf"  data="https://docs.google.com/gview?url=https://cessi.iiserkol.ac.in/Publications_of_Faculty_Associated_with_CESSI_10_04_19.pdf&embedded=true" 
+    width="100%" height="100%"></object> -->
   </div>
 
-  <div ng-include="'footer.html'"></div>
-  <!-- <div ng-include="'/testiiser/footer.html'"></div> -->
-</div>
 
-<script>
-     var app = angular.module("iiserApp",[]);
+  <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
 
-    //  app.controller("myCTRL"["$scope",function($scope){
 
-    // }]);
-</script>
+  <!-- <div id="preloader"></div> -->
 
+  <!-- Vendor JS Files -->
+  <!-- <script src="content/vendor/jquery/jquery.min.js"></script>
+  <script src="content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="content/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="content/vendor/php-email-form/validate.js"></script>
+  <script src="content/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="content/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="content/vendor/venobox/venobox.min.js"></script>
+  <script src="content/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="content/vendor/counterup/counterup.min.js"></script>
+  <script src="content/vendor/aos/aos.js"></script> -->
+
+  <script>
+    var app = angular.module("iiserApp",[]);
+  </script>
+  <!-- Template Main JS File -->
+  <script src="content/js/main.js"></script>
 
 </body>
+
 </html>

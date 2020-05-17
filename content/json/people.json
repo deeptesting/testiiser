@@ -1,0 +1,78 @@
+{
+     "Faculty Members":[
+        {
+            "Name":"Ayan Banerjee",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IISER Kolkata",
+            "Email":"ayan@iiserkol.ac.in",
+            "Image":"content/images/people/Ayan.png",
+            "External_Link":"https://www.iiserkol.ac.in/~ayan/"
+        },
+        {
+            "Name":"Dipankar Banerjee",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"Indian Institute of Astrophysics",
+            "Email":"dipu@iiap.res.in",
+            "Image":"content/images/people/dipu1.jpg",
+            "External_Link":"https://www.iiap.res.in//people/personnel/dipu/"
+        },
+        {
+            "Name":"Nirmalya Ghosh",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IISER Kolkata",
+            "Email":"nghosh@iiserkol.ac.in",
+            "Image":"content/images/people/nghosh.jpg",
+            "External_Link":"https://www.iiserkol.ac.in/~nghosh/"
+        },
+        {
+            "Name":"Dibyendu Nandi",
+            "Degree_Position":"Principal Investigator",
+            "Year":"",
+            "Status":"",
+            "Institute":"IISER Kolkata",
+            "Email":"dnandi@iiserkol.ac.in",
+            "Image":"content/images/people/dndy.jpg",
+            "External_Link":"http://www.iiserkol.ac.in/~dnandi/"
+        },
+        {
+            "Name":"Rajesh Kumble Nayak",
+            "Degree_Position":"Head of the Center",
+            "Year":"",
+            "Status":"",
+            "Institute":"IISER Kolkata",
+            "Email":"rajesh@iiserkol.ac.in",
+            "Image":"content/images/people/rajesh.jpg",
+            "External_Link":"https://www.iiserkol.ac.in/~rajesh/"
+        },
+        {
+            "Name":"A. N. Ramaprakash",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IUCAA",
+            "Email":"anr@iucaa.in",
+            "Image":"content/images/people/Prakash.png",
+            "External_Link":"http://www.iucaa.in/~anr/"
+        } 
+     ]
+      
+     ,"Administrative Staff":[
+        {
+            "Name":"Prosenjit Lahiri",
+            "Degree_Position":"System Administrator",
+            "Year":"",
+            "Status":"",
+            "Institute":"IISER Kolkata",
+            "Email":"prosenjit.lahiri@iiserkol.ac.in",
+            "Image":"content/images/people/prosenjit.jpeg",
+            "External_Link":""
+        }
+     ]
+   
+}
