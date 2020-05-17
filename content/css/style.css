@@ -1027,7 +1027,7 @@ section {
   color: #543a04;
 }
 .outreach h4 { font-weight: 900; text-decoration: underline;}
-.outreach p {
+.outreach p,.outreach ul {
   color:#543a04;
   font-size:14px;
   font-weight: 700;
