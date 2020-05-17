@@ -245,12 +245,18 @@ setTimeout(() => {
 
 })(jQuery);
 
+function Random(){
+  var randm = parseInt(Math.random()*10000000);
+  return randm;
+}
+
 app.controller('baseCtrl', function($scope,$http) {
  
+ 
   //===============Events===================
-    $http({
+  $http({
       method: 'GET',
-      url: 'content/json/announcementEvents.json'
+      url: 'content/json/announcementEvents.json?v='+Random()
   }).then(function (response){
     $scope.EventsInfo = response.data;
   },function (error){  console.log(error)});
@@ -259,7 +265,7 @@ app.controller('baseCtrl', function($scope,$http) {
  //===============News===================
   $http({
     method: 'GET',
-    url: 'content/json/announcementNews.json'
+    url: 'content/json/announcementNews.json?v='+Random()
 }).then(function (response){
   $scope.NewsInfo = response.data;
 },function (error){  console.log(error)});
@@ -268,7 +274,7 @@ app.controller('baseCtrl', function($scope,$http) {
  //===============Announcements===================
 $http({
   method: 'GET',
-  url: 'content/json/announcements.json'
+  url: 'content/json/announcements.json?v='+Random()
 }).then(function (response){
 $scope.AnnouncementsInfo = response.data;
 },function (error){  console.log(error)});
@@ -278,18 +284,14 @@ $scope.AnnouncementsInfo = response.data;
  //===============People===================
  $http({
   method: 'GET',
-  url: 'content/json/people.json'
+  url: 'content/json/people.json?v='+Random()
 }).then(function (response){
     var data = response.data;
     var keys = [];
     for(var k in data) keys.push(k);
-    console.log(keys);
+    //console.log(keys);
     $scope.PeopleInfo = data;
     $scope.PeopleAllKeysInfo = keys;
-
-    
-    
-
 },function (error){  console.log(error)});
 
 
