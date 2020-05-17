@@ -10,8 +10,21 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <!-- <link href="content/img/favicon.png" rel="icon">
-  <link href="content/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link rel="apple-touch-icon" sizes="57x57" href="content/images/fab-icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="content/images/fab-icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="content/images/fab-icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="content/images/fab-icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="content/images/fab-icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="content/images/fab-icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="content/images/fab-icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="content/images/fab-icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="content/images/fab-icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="content/images/fab-icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="content/images/fab-icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="content/images/fab-icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="content/images/fab-icons/favicon-16x16.png">
+ 
+ 
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -53,10 +66,10 @@
   
 
   <!-- Template Main CSS File -->
-  <link href="content/css/style.css" rel="stylesheet">
+  <link href="content/css/style.css?v=1.2" rel="stylesheet">
 
  
-  <base href="/testiiser/">
+ 
 
 
 </head>
@@ -582,10 +595,8 @@
         <hr/>
       </div>
       <!-- People -->
+      <img src="content/images/divider2.jpg" width="100%">
       <div class="mb-3 p-3" >
-         <img src="content/images/divider2.jpg" width="100%">
-         
-
  
          <ng-container ng-if="PeopleAllKeysInfo!=null && PeopleInfo!=null">
           
@@ -601,7 +612,7 @@
                 <div class="card h-100 w-100 mr-3 ml-3 carousel-cell slick-slide" ng-repeat="people in PeopleInfo[keyPeopleDept]">
                   <div class="justify-content-center">
                     <a href="{{people.External_Link!=''?people.External_Link:'javascript:void(0)'}}">
-                      <img class="card-img-top-custom img img-circle  rounded-circle" height="120px" width="120px"  src="{{people.Image}}" >                  
+                      <img class="card-img-top-custom img img-circle rounded-circle mx-auto" height="120px" width="120px"  src="{{people.Image}}" >                  
                     </a>
                     
                   </div>
@@ -701,16 +712,59 @@
               </div>
             </div>
             
-
       </div>
    
-
 
   </div>
 </section><!-- End Gallery Section -->
 
 
 
+    <!-- ======= OutReach Section ======= -->
+    <section id="outreach" class="outreach">
+      <div class="container" data-aos="fade-up">
+
+          <div class="row">
+            <h2 class="w3-lobster">OutReach</h2>
+            <hr/>
+          </div>
+          <div class="">
+            <h4>Public Lectures</h4>
+            <p class="">
+              CESSI organizes public lectures by eminent personalities from the field of science, technology and education to convey the excitement of scientific research and discovery to the public, with a focus on students. Past public lectures are highlighted here.
+            </p>
+            <h4>Public Outreach Events</h4>
+            <p class="">
+              CESSI organizes outreach activities targeting science students and school students with the focus being on astronomy and space sciences. Our outreach activities are highlighted here.   
+            </p>
+            <h4>Promote Science Mission</h4>
+            <p class="">
+              Promote Science is a science outreach mission supported by CESSI which is run by research scholars of IISER Kolkata on a voluntary basis. The main goal of this mission is to enhance scientific awareness in our society and schools regarding career opportunities in diverse scientific disciplines.
+            </p>
+            <h4>CESSI Faculty Advisors for Outreach</h4>
+            <div>
+              <p class="">
+                Dibyendu Nandi, Rajesh Nayak
+              </p>
+            </div>
+           
+            
+            <h4>CESSI Student Volunters:</h4>
+            <div>
+              <p class="">
+                Lekshmi B., Maitraya Bhattacharyya, Amar Deo Chandra, Soumyaranjan Dash, Rajashik Tarafder, Suvadip Sinha
+              </p>
+            </div>
+
+            <h4>Contact: </h4> 
+            <div>
+              <p>cessi@iiserkol.ac.in</p>
+            </div>
+            
+          </div>
+       
+      </div>
+    </section><!-- End OutReach Section -->
 
 
 
@@ -827,7 +881,7 @@
     var app = angular.module("iiserApp",[]);
   </script>
   <!-- Template Main JS File -->
-  <script src="content/js/main.js"></script>
+  <script src="content/js/main.js?v=1.2"></script>
 
 </body>
 

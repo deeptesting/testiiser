@@ -1811,6 +1811,28 @@ section {
 }
 
 
+.outreach{
+  background-image: url('../images/divider_outreach.jpg');
+  background-size: cover;
+  background-color: rgb(190, 190, 190);
+  background-attachment: fixed;
+
+  background-blend-mode: overlay;
+  color: #543a04;
+}
+.outreach h4 { font-weight: 900; text-decoration: underline;}
+.outreach p {
+  color:#543a04;
+  font-size:14px;
+  font-weight: 700;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.outreach hr{
+  background-color: #543a04;
+  width: 100%;
+}
+
 
 
 /* .carousel {
