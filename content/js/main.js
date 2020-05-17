@@ -147,89 +147,18 @@
 
 
 
-
-
-
-
-
-  // // Clients carousel (uses the Owl Carousel library)
-  // $(".clients-carousel").owlCarousel({
-  //   autoplay: true,
-  //   dots: true,
-  //   loop: true,
-  //   responsive: {
-  //     0: {
-  //       items: 2
-  //     },
-  //     768: {
-  //       items: 4
-  //     },
-  //     900: {
-  //       items: 6
-  //     }
-  //   }
-  // });
+ 
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    // var portfolioIsotope = $('.portfolio-container').isotope({
-    //   itemSelector: '.portfolio-item'
-    // });
-
-    // $('#portfolio-flters li').on('click', function() {
-    //   $("#portfolio-flters li").removeClass('filter-active');
-    //   $(this).addClass('filter-active');
-
-    //   portfolioIsotope.isotope({
-    //     filter: $(this).data('filter')
-    //   });
-    //   aos_init();
-    // });
-
+ 
     // // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
-      // $('.venobox').venobox({
-      //   'share': false
-      // });
-              
-     
-
+ 
     });
   });
 
-  // // jQuery counterUp
-  // $('[data-toggle="counter-up"]').counterUp({
-  //   delay: 10,
-  //   time: 1000
-  // });
-
-  // // Testimonials carousel (uses the Owl Carousel library)
-  // $(".testimonials-carousel").owlCarousel({
-  //   autoplay: true,
-  //   dots: true,
-  //   loop: true,
-  //   items: 1
-  // });
-
-  // // Portfolio details carousel
-  // $(".portfolio-details-carousel").owlCarousel({
-  //   autoplay: true,
-  //   dots: true,
-  //   loop: true,
-  //   items: 1
-  // });
-
-
-
-
-  // Initi AOS
-  function aos_init() {
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  }
-  //aos_init();
+ 
 
 setTimeout(() => {
   // $('.main-carousel-people').flickity({
@@ -247,7 +176,7 @@ setTimeout(() => {
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed:1500,
     pauseOnHover:true,
     // centerMode: true,
