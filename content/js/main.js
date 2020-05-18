@@ -252,7 +252,7 @@ function Random(){
 
 app.controller('baseCtrl', function($scope,$http) {
  
- 
+   $scope.screenwidth = screen.width ;
   //===============Events===================
   $http({
       method: 'GET',
