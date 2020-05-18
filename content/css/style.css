@@ -1220,7 +1220,7 @@ section {
 @media only screen and (max-width:1000px){/*if it is 1000px change the font to 12 pt and so on for each resolution you need.*/
   .centered{font-size:12pt!important;}
 }
-@media only screen and (max-width:800px){/*if it is 800px change the font to 11 pt and so on for each resolution you need.*/
+@media only screen and (max-width:1000px){/*if it is 800px change the font to 11 pt and so on for each resolution you need.*/
   .container.heading_container{
     margin-top: 20px;
   }
@@ -1231,7 +1231,11 @@ section {
     width: 100%;
     font-size: 25px;
   }
-  #hero{padding-top:70px;padding-bottom: 0px;}
+  #hero{
+    /* padding-top:70px; */
+    padding-bottom: 0px;
+    height: 46vh;
+    padding-top: 7vh;}
   .people_dept_section .card {
     max-width: 11rem;
     min-width: 11rem;
