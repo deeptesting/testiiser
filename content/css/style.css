@@ -1234,8 +1234,9 @@ section {
   #hero{
     /* padding-top:70px; */
     padding-bottom: 0px;
-    height: 46vh;
-    padding-top: 7vh;}
+    height: 39vh;
+    padding-top: 13vh;
+  }
   .people_dept_section .card {
     max-width: 11rem;
     min-width: 11rem;
