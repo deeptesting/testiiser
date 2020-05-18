@@ -1235,7 +1235,7 @@ section {
     /* padding-top:70px; */
     padding-bottom: 0px;
     height: 33vh;
-    padding-top: 13vh;
+    padding-top: 10vh;
   }
   .people_dept_section .card {
     max-width: 11rem;
@@ -1253,7 +1253,7 @@ section {
   #hero{
     padding-bottom: 0px;
     height: 33vh;
-    padding-top: 13vh;
+    padding-top: 10vh;
   }
   .carousel-caption { 
     margin-bottom: -54px;
