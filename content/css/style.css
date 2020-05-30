@@ -1000,8 +1000,11 @@ section {
   background-color: #fffcea;
   border: 1px solid #f1b800;
 }
+
+
+
 .people_dept_section .card-body {
-  min-height: 8rem;
+  min-height: 10rem;
   max-height: 10rem;
   overflow: auto;
   padding-bottom: 2px !important;
@@ -1017,7 +1020,15 @@ section {
    padding-bottom: 0;
    height: 46px;
 }
+.people_dept_section .card.card-widther {
+  max-width: 13.5rem;
+  min-width: 13.5rem;
+  min-height: 16rem;
+}
 
+.people_dept_section .card.card-widther .card-footer{
+  max-width: 13.5rem;
+}
 
 .people_dept_section .card-img-top-custom {
   /* margin-left:1.5rem; */
@@ -1390,7 +1401,7 @@ section {
    .publication_btn{
     font-size:1rem;
   }
-  .people_dept_section .card {
+  .people_dept_section .card, .people_dept_section .card.card-widther {
     max-width: 9.5rem;
     min-width: 9.5rem;
     min-height: 9rem;

@@ -122,7 +122,6 @@
             "External_Link":"http://www.iiti.ac.in/people/~bvaidya/"
         } 
      ]
-      
      ,"Administrative Staff":[
         {
             "Name":"Prosenjit Lahiri",
@@ -135,5 +134,315 @@
             "External_Link":""
         }
      ]
-   
+     , "Scientific Staff":[
+        {
+            "Name":"Arnab Basak",
+            "Degree_Position":"Research Scientist",
+            "Year":"",
+            "Status":"",
+            "Institute":"",
+            "Email":"a.basak@iiserkol.ac.in",
+            "Image":"content/images/people/arnab_pic.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Deborshi Chakraborty",
+            "Degree_Position":"Engineer(Electronics/Electro-Optics)",
+            "Year":"",
+            "Status":"",
+            "Institute":"",
+            "Email":"deborshi@iiserkol.ac.in",
+            "Image":"content/images/people/deborshi.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Mintu Karmakar",
+            "Degree_Position":"Engineer(Mechanical)",
+            "Year":"",
+            "Status":"",
+            "Institute":"",
+            "Email":"mkarmakar@iiserkol.ac.in",
+            "Image":"content/images/people/mkarmakar.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Arghya Mukherjee",
+            "Degree_Position":"Postdoctoral Fellow",
+            "Year":"",
+            "Status":"",
+            "Institute":"",
+            "Email":"arghya.cessi@iiserkol.ac.in",
+            "Image":"content/images/people/arghya.jpg",
+            "External_Link":""
+        }
+     ]
+     , "PhD":[
+        {
+            "Name":"Lekshmi B",
+            "Degree_Position":"PhD",
+            "Year":"2015 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"lb15rs016@iiserkol.ac.in",
+            "Image":"content/images/people/laxmi.jpg",
+            "External_Link":""
+        },
+
+        {
+            "Name":"Maitraya Kanta Bhattacharyya",
+            "Degree_Position":"I-PhD",
+            "Year":"2016 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"mkb14ip002@iiserkol.ac.in",
+            "Image":"content/images/people/mkb.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Sanchita Pal",
+            "Degree_Position":"PhD",
+            "Year":"2015 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"sp15rs036@iiserkol.ac.in",
+            "Image":"content/images/people/sanchita.JPG",
+            "External_Link":""
+        },
+        {
+            "Name":"Amar Deo Chandra",
+            "Degree_Position":"PhD",
+            "Year":"2015 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"adc15rs019@iiserkol.ac.in",
+            "Image":"content/images/people/amar.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Soumyaranjan Dash",
+            "Degree_Position":"PhD",
+            "Year":"2016 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"sd16rs002@iiserkol.ac.in",
+            "Image":"content/images/people/dash.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Athira B. S",
+            "Degree_Position":"PhD",
+            "Year":"2016 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"abs16rs013@iiserkol.ac.in",
+            "Image":"content/images/people/athira.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Rakesh Mazumder",
+            "Degree_Position":"PhD",
+            "Year":"2013 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"rm13rs027@iiserkol.ac.in",
+            "Image":"content/images/people/rakesh.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Santanu Tripathy",
+            "Degree_Position":"PhD",
+            "Year":"2012 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"st12rs048@iiserkol.ac.in",
+            "Image":"content/images/people/santanu.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Suvadip Sinha",
+            "Degree_Position":"PhD",
+            "Year":"2016 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"ss16rs006@iiserkol.ac.in",
+            "Image":"content/images/people/suva.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Souvik Roy",
+            "Degree_Position":"PhD",
+            "Year":"2018 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"sr18rs037@iiserkol.ac.in",
+            "Image":"content/images/people/souvik.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Paulami Majumder",
+            "Degree_Position":"PhD",
+            "Year":"2018 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"pm18rs040@iiserkol.ac.in",
+            "Image":"content/images/people/poulami.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Shaonwita Pal",
+            "Degree_Position":"PhD",
+            "Year":"2019 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"sp19rs038@iiserkol.ac.in",
+            "Image":"content/images/people/Shaonwita.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Souradeep Pal",
+            "Degree_Position":"PhD",
+            "Year":"2019 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"sp19rs015@iiserkol.ac.in",
+            "Image":"content/images/people/Souradeep.jpg",
+            "External_Link":""
+        } 
+     ]
+     , "MS":[
+        {
+            "Name":"Gopi Kamlesh Patel",
+            "Degree_Position":"MS",
+            "Year":"2019 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"gkp19mr001@iiserkol.ac.in",
+            "Image":"content/images/people/Gopi.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Arpita Roddanavar",
+            "Degree_Position":"MS",
+            "Year":"2019 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"ar19mr003@iiserkol.ac.in",
+            "Image":"content/images/people/Arpita.JPG",
+            "External_Link":""
+        },
+        {
+            "Name":"Shreyan Sadh",
+            "Degree_Position":"MS",
+            "Year":"2019 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"ss19mr002@iiserkol.ac.in",
+            "Image":"content/images/people/Shreyan.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Aditi Bhatnagar",
+            "Degree_Position":"BS-MS",
+            "Year":"2015 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"ab15ms120@iiserkol.ac.in",
+            "Image":"content/images/people/Aditi.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Sajal Gupta",
+            "Degree_Position":"BS-MS",
+            "Year":"2015 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"sg15ms084@iiserkol.ac.in",
+            "Image":"content/images/people/Sajal.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Ranadeep Ghosh Dastidar",
+            "Degree_Position":"BS-MS",
+            "Year":"2015 Onwards",
+            "Status":"",
+            "Institute":"",
+            "Email":"rgd15ms132@iiserkol.ac.in",
+            "Image":"content/images/people/Ranadeep.jpg",
+            "External_Link":""
+        }
+     ]
+     , "Visiting Fellow":[
+        {
+            "Name":"Bindesh Tripathi",
+            "Degree_Position":"Visiting Fellow",
+            "Year":"",
+            "Status":"",
+            "Institute":"CESSI",
+            "Email":"bindeshtrip@gmail.com",
+            "Image":"content/images/people/Bindesh.jpg",
+            "External_Link":""
+        } 
+     ]
+     , "Alumni":[
+        {
+            "Name":"Aveek Sarkar",
+            "Degree_Position":"Reader",
+            "Year":"",
+            "Status":"",
+            "Institute":"Physical Research Laboratory",
+            "Email":"aveeks@gmail.com",
+            "Image":"content/images/people/Aveek.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Sushant Mahajan",
+            "Degree_Position":"Postdoctoral Fellow",
+            "Year":"",
+            "Status":"",
+            "Institute":"University of Hawaii",
+            "Email":"mahajan.astro.gsu.edu",
+            "Image":"content/images/people/sushant.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"K.Chandrashekhar Reddy",
+            "Degree_Position":"Postdoctoral Fellow",
+            "Year":"",
+            "Status":"",
+            "Institute":"Indian Institute of Astrophysics, Bangalore",
+            "Email":"chandurie@gmail.com",
+            "Image":"content/images/people/chandu_new.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Abhinna kumar Behera",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2014",
+            "Status":"Doctoral Student",
+            "Institute":"University of Reims",
+            "Email":"babhinnakumar@gmail.com",
+            "Image":"content/images/people/abhinna.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Mayukh Panja",
+            "Degree_Position":"MS",
+            "Year":"Graduated 2016",
+            "Status":"Doctoral Student",
+            "Institute":"Max-Planck-Institut für Sonnensystemforschung",
+            "Email":"mayukhpanja@gmail.com",
+            "Image":"content/images/people/mayukh.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Tamoghna Majumdar",
+            "Degree_Position":"MS",
+            "Year":"Graduated 2016",
+            "Status":"",
+            "Institute":"Center of Excellence in Space Sciences, India",
+            "Email":"tamz.msc1@gmail.com",
+            "Image":"content/images/people/tamogna.jpg",
+            "External_Link":""
+        } 
+     ]
 }

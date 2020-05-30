@@ -296,8 +296,28 @@ $scope.AnnouncementsInfo = response.data;
 
 
 
+
+
+
 });
 
+
+// arr.forEach((row, index)=>{
+//   var dataas = row.split("\n");
+//    var textdata =` {
+//     "Name":"${dataas[0]}",
+//     "Degree_Position":"${dataas[1]}",
+//     "Year":"${dataas[2]}",
+//     "Status":"",
+//     "Institute":"",
+//     "Email":"${dataas[3]}",
+//     "Image":"content/images/people/test.jpg",
+//     "External_Link":""
+// },`
+//  console.log(textdata)
+// })
+
+ 
 
 
 

@@ -73,7 +73,7 @@
 
 
   <!-- Template Main CSS File -->
-  <link href="content/css/style.css?v=2.580973445" rel="stylesheet">
+  <link href="content/css/style.css?v=2.586665432" rel="stylesheet">
 
   <base href="/testiiser/">
 
@@ -551,7 +551,15 @@
  
          <ng-container ng-if="PeopleAllKeysInfo!=null && PeopleInfo!=null">
           
+          
           <div class="people_dept_section" ng-repeat="keyPeopleDept in PeopleAllKeysInfo">
+
+            <div ng-if="keyPeopleDept=='PhD'" class="mt-4" style="text-align: center;">
+             <h2 class="w3-lobster">Students</h2>
+             <hr/>
+            </div>
+
+
             <div class="people_dept_header">
               <h4 class="w3-lobster">{{keyPeopleDept}}</h4>
             </div>
@@ -560,7 +568,7 @@
 
               <div class="card-deck card-columns main-carousel-people" >
                 <!-- h-100 w-100 mr-3 ml-3  -->
-                <div class="card m-1" ng-repeat="people in PeopleInfo[keyPeopleDept]">
+                <div class="card m-1 mx-auto {{(PeopleInfo[keyPeopleDept].length<6)?'card-widther':''}}" ng-repeat="people in PeopleInfo[keyPeopleDept]">
                   <div class="mx-auto" style="text-align: center;">
                     <a href="{{people.External_Link!=''?people.External_Link:'javascript:void(0)'}}" class="mx-auto-custom">
                       <img class="card-img-top-custom img img-circle rounded-circle" height="105px" width="100px"  src="{{people.Image}}" >                  
@@ -887,7 +895,7 @@
     var app = angular.module("iiserApp",[]);
   </script>
   <!-- Template Main JS File -->
-  <script src="content/js/main.js?v=1.85"></script>
+  <script src="content/js/main.js?v=1.855"></script>
 
 </body>
 
