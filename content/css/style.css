@@ -982,6 +982,10 @@ section {
   background-color: #926d23;
   width: 100%;
 }
+.people_dept_section .card-deck {
+  border:1px solid;
+}
+
 .people_dept_section .card {
   max-width: 11.5rem;
   min-width: 11.5rem;
@@ -1277,6 +1281,34 @@ section {
   margin-left: auto !important;
  }
 
+/* 
+ .people_dept_section .card-columns {
+  column-count: 2;
+}
+ 
+ @media (min-width: 576px) {
+  .people_dept_section .card-columns {
+      column-count: 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .people_dept_section .card-columns {
+      column-count: 4;
+  }
+}
+
+@media (min-width: 992px) {
+  .people_dept_section .card-columns {
+      column-count: 5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .people_dept_section .card-columns {
+      column-count: 6;
+  }
+} */
 
 /*-----------Media Query---------*/
 
@@ -1328,11 +1360,18 @@ section {
     justify-content: flex-start;
     flex-flow: row wrap; 
     align-items: stretch;
+    margin-left:10px;
+    border:1px solid;
   }
   .people_dept_section .card-deck .card {
     display: block;
     flex-basis: 33.3%; /* change this value for each breakpoint*/
   }
+
+
+ 
+
+
 
   .mx-auto-custom {
     margin-right: 10px !important;
@@ -1367,6 +1406,15 @@ section {
 @media only screen and (max-width:400px){
   .centered{font-size:9pt!important;}
 }
-@media only screen and (max-width:200px){
+@media only screen and (max-width:360px){
   .centered{font-size:8pt!important;}
+  .people_dept_section .card-deck {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap; 
+    align-items: stretch;
+    margin-left:1px;
+    border:1px solid;
+  }
+
 }
