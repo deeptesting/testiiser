@@ -59,6 +59,67 @@
             "Email":"anr@iucaa.in",
             "Image":"content/images/people/Prakash.png",
             "External_Link":"http://www.iucaa.in/~anr/"
+        },
+        {
+            "Name":"K. Sankarasubramanian",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"ISRO Bangalore",
+            "Email":"sankark@isac.gov.in",
+            "Image":"content/images/people/sankara.jpg",
+            "External_Link":"https://www.isac.gov.in/"
+        },
+        {
+            "Name":"Nandita Srivastava",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"USO-PRL Udaipur",
+            "Email":"nandita@prl.res.in",
+            "Image":"content/images/people/nandita.jpg",
+            "External_Link":"https://www.prl.res.in/~nandita/"
+        },
+
+        {
+            "Name":"Tarun Souradeep",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IUCAA",
+            "Email":"tarun@iucaa.in",
+            "Image":"content/images/people/Tarun.jpg",
+            "External_Link":"http://www.gw.iucaa.in/tarun-sauradeep/"
+        },
+        {
+            "Name":"Prasad Subramanian",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IISER Pune",
+            "Email":"p.subramanian@iiserpune.ac.in",
+            "Image":"content/images/people/Prasad.jpg",
+            "External_Link":"http://www.iiserpune.ac.in/~p.subramanian/"
+        },
+        {
+            "Name":"Durgesh Tripathi",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IUCAA",
+            "Email":"durgesh@iucaa.in",
+            "Image":"content/images/people/durgesh.jpg",
+            "External_Link":"http://www.iucaa.in/~durgesh/index.html"
+        },
+        {
+            "Name":"Bhargav Vaidya",
+            "Degree_Position":"",
+            "Year":"",
+            "Status":"",
+            "Institute":"IIT Indore",
+            "Email":"bvaidya@iiti.ac.in",
+            "Image":"content/images/people/Bhargav.jpg",
+            "External_Link":"http://www.iiti.ac.in/people/~bvaidya/"
         } 
      ]
       

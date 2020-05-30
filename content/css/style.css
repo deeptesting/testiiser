@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   color: #202020;
 }
 
@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffc451;
 }
 
+p{
+  font-family: Abel;
+  font-size:18px;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -130,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   font-size: 32px;
   margin: 0;
+  margin-top: -8px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -175,9 +180,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-size: 18px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: Abel;
+  font-weight: 500;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -399,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 82vh;
+  height: 83vh;
   /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
   position: relative;
@@ -657,10 +663,9 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
   color: #fff;
 }
 
@@ -677,6 +682,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  font-family:Abel;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -785,7 +791,7 @@ section {
 
 /**==================================*/
 .container{
-  width:85%;
+  width:90%;
 }
 .w3-lobster {
   font-family: "Lobster", serif;
@@ -801,9 +807,10 @@ section {
 } */
 .heading_block{
   color: #FFC451;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 600;
-  margin-top: 13px;
+  margin-top: 0px;
+  font-family: Abel;
 }
 .about{
   background-image: url('../images/divider1.jpg');
@@ -815,10 +822,11 @@ section {
 }
 .about p {
   color:#ffffff;
-  font-size:14px;
+  font-size:18px;
   font-weight: 100;
   text-align: justify;
   text-justify: inter-word;
+  font-family: abel;
 }
 .about hr{
   background-color: #FFC451;
@@ -849,10 +857,14 @@ section {
 .announcements .card-body a {
   color: #883310;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-decoration: underline;
 }
 
+.announcements .event-card span{
+  font-family: Abel;
+  font-size:18px;
+}
 
 
 
@@ -870,10 +882,11 @@ section {
 }
 .research p {
   color:#ffffff;
-  font-size:14px;
+  font-size:18px;
   font-weight: 100;
   text-align: justify;
   text-justify: inter-word;
+  font-family: abel;
 }
 .research hr{
   background-color: #FFC451;
@@ -920,10 +933,11 @@ section {
 }
 .programs p {
   color:#ffffff;
-  font-size:14px;
+  font-size:18px;
   font-weight: 100;
   text-align: justify;
   text-justify: inter-word;
+  font-family: abel;
 }
 .programs hr{
   background-color: #ffc451;
@@ -942,24 +956,26 @@ section {
 }
 .people p {
   color:#926d23;
-  font-size:14px;
+  font-size:16px;
   font-weight: 700;
   margin-bottom: 0px;
   /* text-align: justify;
   text-justify: inter-word; */
+  font-family: Abel;
 }
 
 .people p.peaple_name{
     font-weight: 900;
     color: #c74a00;
     border: 0px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 5px;
 }
 .people p.email-text{
-  font-weight: 600;
-  font-size: .8rem;
-  word-break: break-all;
+  font-weight: 400;
+  font-size: 0.9rem;
+  /* word-break: break-all; */
+  color:#ffc451;
 }
 
 .people hr{
@@ -967,16 +983,31 @@ section {
   width: 100%;
 }
 .people_dept_section .card {
-  max-width: 13rem;
-  min-width: 13rem;
-  min-height: 21rem;
-  max-height: 21rem;
+  max-width: 11.5rem;
+  min-width: 11.5rem;
+  min-height: 16rem;
+  /* max-height: 16rem; */
   background-color: #fffcea;
+  border: 1px solid #f1b800;
 }
 .people_dept_section .card-body {
   min-height: 8rem;
-  max-height: 8rem;
+  max-height: 10rem;
+  overflow: auto;
+  padding-bottom: 2px !important;
 }
+
+.people_dept_section .card-footer{
+   background-color:  #410e0e;  /*291b1b */
+   max-width: 11.5rem;
+   white-space: nowrap;
+   overflow: auto;
+   padding-left: 10px;
+   padding-right: 5px;
+   padding-bottom: 0;
+   height: 46px;
+}
+
 
 .people_dept_section .card-img-top-custom {
   /* margin-left:1.5rem; */
@@ -1020,7 +1051,7 @@ section {
 .outreach{
   background-image: url('../images/divider_outreach.jpg');
   background-size: cover;
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(212, 212, 212);
   background-attachment: fixed;
 
   background-blend-mode: overlay;
@@ -1029,10 +1060,11 @@ section {
 .outreach h4 { font-weight: 900; text-decoration: underline;}
 .outreach p,.outreach ul {
   color:#543a04;
-  font-size:14px;
+  font-size:18px;
   font-weight: 700;
   text-align: justify;
   text-justify: inter-word;
+  font-family: Abel;
 }
 .outreach hr{
   background-color: #543a04;
@@ -1051,10 +1083,11 @@ section {
  
 .contact p {
   color:#ffc451;
-  font-size:14px;
+  font-size:18px;
   font-weight: 700;
   text-align: justify;
   text-justify: inter-word;
+  font-family: Abel;
 }
 .contact hr{
   background-color: #ffc451;
@@ -1213,6 +1246,36 @@ section {
   transform: scale(1);
 }
 
+/* #people {width: 1600px;}  */
+#people .container {
+  padding: 0;
+  /* max-width: 100%; display: block; border: 1px solid red; */
+}
+/* .full-width-div {
+  position: relative;
+  width: 100%;
+  left: 0;
+} */
+
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(80, 5, 5, 0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(80, 5, 5, 0.3); 
+}
+.mx-auto-custom {
+  margin-right: auto !important;
+  margin-left: auto !important;
+ }
 
 
 /*-----------Media Query---------*/
@@ -1240,7 +1303,7 @@ section {
   .people_dept_section .card {
     max-width: 11rem;
     min-width: 11rem;
-    min-height: 15rem;
+    min-height: 12rem;
   }
   .people p {
       font-size:12px;
@@ -1255,6 +1318,28 @@ section {
     height: 33vh;
     padding-top: 10vh;
   }
+  #header .logo img {
+    max-height: 45px;
+    margin-top: 7px;
+  }
+
+  .card-deck {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap; 
+    align-items: stretch;
+  }
+  .card-deck .card {
+    display: block;
+    flex-basis: 33.3%; /* change this value for each breakpoint*/
+  }
+
+  .mx-auto-custom {
+    margin-right: 10px !important;
+    margin-left: 25px !important;
+   }
+
+
   .carousel-caption { 
     margin-bottom: -54px;
     font-size: 11px;
@@ -1265,9 +1350,15 @@ section {
     font-size:1rem;
   }
   .people_dept_section .card {
-    max-width: 11rem;
-    min-width: 11rem;
-    min-height: 15rem;
+    max-width: 9.5rem;
+    min-width: 9.5rem;
+    min-height: 9rem;
+  }
+  .people_dept_section .card-body {
+    min-height: 7rem;
+    max-height: 7rem;
+    overflow: auto;
+    padding-bottom: 2px !important;
   }
   .people p {
     font-size:12px;

@@ -160,87 +160,87 @@
 
  
 
-setTimeout(() => {
-  // $('.main-carousel-people').flickity({
-  //   // options
-  //   cellAlign: 'left',
-  //   autoPlay: true,
-  //   contain: true,
-  //   pageDots: true,
-  //   prevNextButtons:true
-  // });
-  $('.slick.marquee.main-carousel-people').slick({
-    // speed: 5000,
-    dots: true,
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed:1500,
-    pauseOnHover:true,
-    // centerMode: true,
-    // centerPadding: '30px',
-    prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
-    nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+// setTimeout(() => {
+//   // $('.main-carousel-people').flickity({
+//   //   // options
+//   //   cellAlign: 'left',
+//   //   autoPlay: true,
+//   //   contain: true,
+//   //   pageDots: true,
+//   //   prevNextButtons:true
+//   // });
+//   $('.slick.marquee.main-carousel-people').slick({
+//     // speed: 5000,
+//     dots: true,
+//     infinite: true,
+//     slidesToShow: 5,
+//     slidesToScroll: 1,
+//     arrows: true,
+//     autoplay: true,
+//     autoplaySpeed:1500,
+//     pauseOnHover:true,
+//     // centerMode: true,
+//     // centerPadding: '30px',
+//     prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+//     nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
 
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          dots: true,
-          centerMode: false
-        }
-      },
-      {
-        breakpoint: 1008,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          dots: true,
-          centerMode: false
-        }
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          dots: false,
-          centerMode: true,
-          centerPadding: '50px',
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-          centerMode: true,
-          cssEase: 'linear',
-          variableWidth: true,
-        }
-      } 
+//     responsive: [
+//       {
+//         breakpoint: 1200,
+//         settings: {
+//           slidesToShow: 5,
+//           slidesToScroll: 1,
+//           dots: true,
+//           centerMode: false
+//         }
+//       },
+//       {
+//         breakpoint: 1008,
+//         settings: {
+//           slidesToShow: 3,
+//           slidesToScroll: 1,
+//           dots: true,
+//           centerMode: false
+//         }
+//       },
+//       {
+//         breakpoint: 800,
+//         settings: {
+//           slidesToShow: 3,
+//           slidesToScroll: 1,
+//           dots: false,
+//           centerMode: true,
+//           centerPadding: '50px',
+//         }
+//       },
+//       {
+//         breakpoint: 600,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1,
+//           dots: false,
+//           centerMode: true,
+//           cssEase: 'linear',
+//           variableWidth: true,
+//         }
+//       } 
 
-    ]
+//     ]
 
-    // 
-    // autoplaySpeed: 200,
-    // centerMode: true,
-    // cssEase: 'linear',
-    // slidesToShow: 3,
-    // slidesToScroll: 1,
-    // variableWidth: true,
-    // infinite: true,
+//     // 
+//     // autoplaySpeed: 200,
+//     // centerMode: true,
+//     // cssEase: 'linear',
+//     // slidesToShow: 3,
+//     // slidesToScroll: 1,
+//     // variableWidth: true,
+//     // infinite: true,
     
-    // 
-    // 
+//     // 
+//     // 
      
-  });
-}, 2500);
+//   });
+// }, 2500);
 
 
 })(jQuery);
