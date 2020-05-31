@@ -253,6 +253,7 @@ function Random(){
 app.controller('baseCtrl', function($scope,$http) {
  
    $scope.screenwidth = screen.width ;
+   $scope.isPeopleLoad = false;
   //===============Events===================
   $http({
       method: 'GET',
@@ -292,6 +293,7 @@ $scope.AnnouncementsInfo = response.data;
     //console.log(keys);
     $scope.PeopleInfo = data;
     $scope.PeopleAllKeysInfo = keys;
+    $scope.isPeopleLoad = true;
 },function (error){  console.log(error)});
 
 
