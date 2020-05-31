@@ -73,7 +73,7 @@
 
 
   <!-- Template Main CSS File -->
-  <link href="content/css/style.css?v=3.5565562" rel="stylesheet">
+  <link href="content/css/style.css?v=3.588655" rel="stylesheet">
 
   <base href="/testiiser/">
 
@@ -226,7 +226,7 @@
       <div class="container" data-aos="fade-up">
 
           <div class="row">
-            <h2 class="w3-lobster">About Us  {{screenwidth}}</h2>
+            <h2 class="w3-lobster">About Us </h2><!-- {{screenwidth}}-->
             <hr/>
           </div>
           <div class="row">
@@ -568,7 +568,7 @@
 
               <div class="card-deck card-columns main-carousel-people" >
                 <!-- h-100 w-100 mr-3 ml-3  -->
-                <div class="card m-1 mx-auto {{(PeopleInfo[keyPeopleDept].length<6)?'card-widther':''}}" ng-repeat="people in PeopleInfo[keyPeopleDept]">
+                <div class="card m-1 mx-auto {{(keyPeopleDept.toLowerCase()=='alumni'?'card-alumni':'')}} {{(PeopleInfo[keyPeopleDept].length<6)?'card-widther':''}}" ng-repeat="people in PeopleInfo[keyPeopleDept]">
                   <div class="mx-auto" style="text-align: center;">
                     <a href="{{people.External_Link!=''?people.External_Link:'javascript:void(0)'}}" class="mx-auto-custom">
                       <img class="card-img-top-custom img img-circle rounded-circle" height="105px" width="100px"  src="{{people.Image}}" >                  
@@ -799,7 +799,7 @@
         </div>
 
         <div class="align-center mt-3">
-          <h2>CESSI IISER Kolkata</h2>
+          <h2 class="contact-header">CESSI IISER Kolkata</h2>
         </div>
      
         <div class="mb-5">
