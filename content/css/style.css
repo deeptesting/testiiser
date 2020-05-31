@@ -1422,7 +1422,7 @@ section {
    .publication_btn{
     font-size:1rem;
   }
-  .people_dept_section .card, .people_dept_section .card.card-widther {
+  .people_dept_section .card,.people_dept_section .card.card-alumni, .people_dept_section .card.card-widther {
     max-width: 9.5rem;
     min-width: 9.5rem;
     min-height: 9rem;

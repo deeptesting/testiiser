@@ -443,6 +443,66 @@
             "Email":"tamz.msc1@gmail.com",
             "Image":"content/images/people/tamogna.jpeg",
             "External_Link":""
+        },
+        {
+            "Name":"Soumitra Hazra",
+            "Degree_Position":"Postdoctoral Fellow",
+            "Year":"",
+            "Status":"",
+            "Institute":"University of Paris",
+            "Email":"soumitra.hazra@gmail.com",
+            "Image":"content/images/people/soumitra.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Soumitra Hazra",
+            "Degree_Position":"Postdoctoral Fellow",
+            "Year":"",
+            "Status":"",
+            "Institute":"University of Paris",
+            "Email":"soumitra.hazra@gmail.com",
+            "Image":"content/images/people/soumitra.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Payel Mukhopadhyay",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2017",
+            "Status":"Doctoral Student",
+            "Institute":"Stanford University",
+            "Email":"payelmukhopadhyay180@gmail.com",
+            "Image":"content/images/people/payel.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Payel Mukhopadhyay",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2017",
+            "Status":"Doctoral Student",
+            "Institute":"Stanford University",
+            "Email":"payelmukhopadhyay180@gmail.com",
+            "Image":"content/images/people/payel.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Anala K S",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2017",
+            "Status":"",
+            "Institute":"CESSI",
+            "Email":"analasreekumar94@gmail.com",
+            "Image":"content/images/people/anala.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Madhusudan Ingale",
+            "Degree_Position":"Postdoctoral Fellow",
+            "Year":"",
+            "Status":"Physical Research Laboratory",
+            "Institute":"CESSI",
+            "Email":"31mayur83@gmail.com",
+            "Image":"content/images/people/madhusudan_ingale.jpeg",
+            "External_Link":""
         } 
      ]
 }
