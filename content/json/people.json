@@ -455,16 +455,6 @@
             "External_Link":""
         },
         {
-            "Name":"Soumitra Hazra",
-            "Degree_Position":"Postdoctoral Fellow",
-            "Year":"",
-            "Status":"",
-            "Institute":"University of Paris",
-            "Email":"soumitra.hazra@gmail.com",
-            "Image":"content/images/people/soumitra.jpg",
-            "External_Link":""
-        },
-        {
             "Name":"Payel Mukhopadhyay",
             "Degree_Position":"BS-MS",
             "Year":"Graduated 2017",
@@ -493,6 +483,186 @@
             "Email":"31mayur83@gmail.com",
             "Image":"content/images/people/madhusudan_ingale.jpg",
             "External_Link":""
-        } 
+        },
+        {
+            "Name":"Anuradha Samajdar",
+            "Degree_Position":"",
+            "Year":"Awarded PhD in 2018",
+            "Status":"Postdoctoral Fellow",
+            "Institute":"Nikhef",
+            "Email":"anuradhasamajdar@gmail.com",
+            "Image":"content/images/people/anuradha.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Rajashik Tarafder",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2017",
+            "Status":"Doctoral Student",
+            "Institute":"California Institute of Technology",
+            "Email":"rajashiktarafder@gmail.com",
+            "Image":"content/images/people/rajashik.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Rohan Eugene Louis",
+            "Degree_Position":"Faculty",
+            "Year":"",
+            "Status":"Physical Research Laboratory",
+            "Institute":"",
+            "Email":"--",
+            "Image":"content/images/people/Rohan.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Rohan Eugene Louis",
+            "Degree_Position":"Faculty",
+            "Year":"",
+            "Status":"Physical Research Laboratory",
+            "Institute":"",
+            "Email":"--",
+            "Image":"content/images/people/Rohan.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Sreejesh PS",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2018",
+            "Status":"",
+            "Institute":"",
+            "Email":"sreejesh.peeyes@gmail.com",
+            "Image":"content/images/people/sreejesh.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Srijan B. Das",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2018",
+            "Status":"Doctoral Student",
+            "Institute":"Princeton University",
+            "Email":"srijanbdas19952gmail.com",
+            "Image":"content/images/people/srijan.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Suman Panda",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2018",
+            "Status":"Doctoral Student",
+            "Institute":"Montana State University",
+            "Email":"sumanpanda81@gmail.com",
+            "Image":"content/images/people/SumanPanda.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Prantika Bhowmik",
+            "Degree_Position":"",
+            "Year":"Awarded PhD in 2019",
+            "Status":"Post Doctoral Fellow",
+            "Institute":"Durham University, UK",
+            "Email":"prantika.bhowmik@durham.ac.uk",
+            "Image":"content/images/people/prantika_new.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Avyarthana Ghosh",
+            "Degree_Position":"Research Associate",
+            "Year":"",
+            "Status":"",
+            "Institute":"IUCAA, Pune",
+            "Email":"ag13rs013@iiserkol.ac.in",
+            "Image":"content/images/people/avyarthana.jpeg",
+            "External_Link":""
+        },
+        {
+            "Name":"Manu Gupta",
+            "Degree_Position":"MS",
+            "Year":"",
+            "Status":"Doctoral Student",
+            "Institute":"University of Graz, Austria",
+            "Email":"mg17mr003@iiserkol.ac.in",
+            "Image":"content/images/people/manu.jpg",
+            "External_Link":""
+        }, 
+        {
+            "Name":"Praveer Krishna Gollapudi",
+            "Degree_Position":"MS",
+            "Year":"Graduated 2019",
+            "Status":"",
+            "Institute":"",
+            "Email":"pkg17mr002@iiserkol.ac.in",
+            "Image":"content/images/people/praveer.jpg",
+            "External_Link":""
+        }, 
+        {
+            "Name":"Unnati Ashar",
+            "Degree_Position":"MS",
+            "Year":"Graduated 2019",
+            "Status":"Project JRF",
+            "Institute":"IIT Bombay",
+            "Email":"30003368@iitb.ac.in",
+            "Image":"content/images/people/unnati.jpg",
+            "External_Link":""
+        }, 
+        {
+            "Name":"Ankit Mandal",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2019",
+            "Status":"Visiting Research Student",
+            "Institute":"University of Western Australia",
+            "Email":"am14ms154@iiserkol.ac.in",
+            "Image":"content/images/people/Ankit.jpeg",
+            "External_Link":""
+        }, 
+        {
+            "Name":"Tathagata Pal",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2019",
+            "Status":"Graduate Student",
+            "Institute":"Washington State University, Pullman, WA",
+            "Email":"tathagata.pal@wsu.edu",
+            "Image":"content/images/people/Tathagata.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Aritra Aich",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2019",
+            "Status":"Graduate Assistant",
+            "Institute":"University of Wisconsin-Milwaukee",
+            "Email":"aaich@uwm.edu",
+            "Image":"content/images/people/Aritra.jpeg",
+            "External_Link":""
+        }, 
+        {
+            "Name":"Shubhagata Bhaumik",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2019",
+            "Status":"Graduate Student",
+            "Institute":"University of Florida",
+            "Email":"sb14ms077@iiserkol.ac.in",
+            "Image":"content/images/people/Shubhagata.jpg",
+            "External_Link":""
+        },
+        {
+            "Name":"Aditya Priyadarshi",
+            "Degree_Position":"BS-MS",
+            "Year":"Graduated 2019",
+            "Status":"",
+            "Institute":"",
+            "Email":"ap14ms087@iiserkol.ac.in",
+            "Image":"content/images/people/aditya.jpg",
+            "External_Link":""
+        }, 
+        {
+            "Name":"Pushpita Das",
+            "Degree_Position":"BS-MS",
+            "Year":"",
+            "Status":"Doctoral Student",
+            "Institute":"University of Amsterdam",
+            "Email":"pd14ms092@iiserkol.ac.in",
+            "Image":"content/images/people/pushpita.jpeg",
+            "External_Link":""
+        }
      ]
 }
