@@ -1180,15 +1180,18 @@ section {
 
 
 .people-link {
+
   position: absolute;
   background-color: #de6a17;
-  width: 55px;
+  width: 78px;
   text-align: center;
-  font-size: 11px;
+  font-size: 13px;
   bottom: 2.5rem;
   right: 0.5rem;
   color: white;
   border-radius: 10px;
+
+  
 /* 
   position: absolute;
    
@@ -1477,7 +1480,7 @@ section {
   }
 
   .people-link { 
-    width: 60px; 
+    width: 63px;
     font-size: 14px;
     bottom: 2.6rem;
     right: 2.6rem; 
