@@ -1462,6 +1462,15 @@ section {
   #contact h2.contact-header{
     font-size: 1.5rem;
   }
+
+  .people-link { 
+    width: 60px; 
+    font-size: 14px;
+    bottom: 2.6rem;
+    right: 2.6rem; 
+  }
+
+
 }
 @media only screen and (max-width:400px){
   .centered{font-size:9pt!important;}
