@@ -1180,7 +1180,7 @@ section {
 
 
 .people-link {
-  /* position: absolute;
+  position: absolute;
   background-color: #de6a17;
   width: 55px;
   text-align: center;
@@ -1188,17 +1188,17 @@ section {
   bottom: 2.5rem;
   right: 0.5rem;
   color: white;
-  border-radius: 10px; */
-
+  border-radius: 10px;
+/* 
   position: absolute;
-  /* background-color: #de6a17; */
+   
   width: 29px;
   text-align: center;
   font-size: 18px;
   top: 0.1rem;
   right: 0.3rem;
   color: white;
-  border-radius: 20px;
+  border-radius: 20px; */
 }
 .people-link a {color:white;}
 .people-link a:hover {color:#ffb759;}
