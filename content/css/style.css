@@ -1184,7 +1184,7 @@ section {
   background-color: #de6a17;
   width: 55px;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
   bottom: 2.5rem;
   right: 0.5rem;
   color: white;
@@ -1201,7 +1201,9 @@ section {
   border-radius: 20px; */
 }
 .people-link a {color:white;}
-.people-link a:hover {color:#ffb759;}
+.people-link:hover {
+  background-color: #ab4e0c;
+}
 
 /* .carousel-cell {
   width: 28%;
