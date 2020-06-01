@@ -1179,6 +1179,19 @@ section {
 }
 
 
+.people-link {
+  position: absolute;
+  background-color: #de6a17;
+  width: 55px;
+  text-align: center;
+  font-size: 13px;
+  bottom: 2.5rem;
+  right: 0.5rem;
+  color: white;
+  border-radius: 10px;
+}
+.people-link a {color:white;}
+
 /* .carousel-cell {
   width: 28%;
   height: 200px;

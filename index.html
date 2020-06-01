@@ -73,7 +73,7 @@
 
 
   <!-- Template Main CSS File -->
-  <link href="content/css/style.css?v=4.586532" rel="stylesheet">
+  <link href="content/css/style.css?v=4.356565455" rel="stylesheet">
 
   <base href="/testiiser/">
 
@@ -570,9 +570,15 @@
                 <!-- h-100 w-100 mr-3 ml-3  -->
                 <div class="card m-1 mx-auto {{(keyPeopleDept.toLowerCase()=='alumni'?'card-alumni':'')}} {{(PeopleInfo[keyPeopleDept].length<6)?'card-widther':''}}" ng-repeat="people in PeopleInfo[keyPeopleDept]">
                   <div class="mx-auto" style="text-align: center;">
-                    <a href="{{people.External_Link!=''?people.External_Link:'javascript:void(0)'}}" class="mx-auto-custom">
+                    <!-- <a href="{{people.External_Link!=''?people.External_Link:'javascript:void(0)'}}" class="mx-auto-custom">
+                      <img class="card-img-top-custom img img-circle rounded-circle" height="105px" width="100px"  src="{{people.Image}}" >                  
+                    </a> -->
+
+                    <a href="{{people.Image}}" class="mx-auto-custom" data-lity>
                       <img class="card-img-top-custom img img-circle rounded-circle" height="105px" width="100px"  src="{{people.Image}}" >                  
                     </a>
+
+                   
                     
                   </div>
                   <div class="card-body m-1 p-1" style="text-align: center;">
@@ -582,6 +588,9 @@
                     <p class="card-text" ng-if="people.Status!=''">{{people.Status}}</p>
                     <p class="card-text" ng-if="people.Institute!=''">{{people.Institute}}</p>
                    
+                      <sapn class="people-link" ng-if="people.External_Link!=''">
+                        <a href="{{people.External_Link}}" target="_blank" style="width:100%;display: inline-block;"> Link </a>
+                      </span>
                   </div>
                   <div class="card-footer">
                     <p class="card-text email-text" ng-if="people.Email!=''">
